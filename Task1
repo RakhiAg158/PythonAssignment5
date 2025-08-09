@@ -1,0 +1,10 @@
+student={
+    "John": 95,
+    "Alice": 80,
+    "Elena": 98
+}
+name=input("Enter the student's name: ")
+if name in student:
+    print(f"{name}'s marks: {student.get(name)}")
+else:
+    print("Student not found.")
